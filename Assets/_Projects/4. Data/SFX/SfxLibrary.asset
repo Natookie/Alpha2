@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a228fcfc96f53341a6cc73ff0a12bae, type: 3}
+  m_Name: SfxLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::SfxLibrary
+  entries:
+  - key: player_attack
+    clip: {fileID: 8300000, guid: 624d743f4e194bc4c883bad49524a6ba, type: 3}
+    volume: 0.6
+    minPitch: 0.8
+    maxPitch: 1.1
+  - key: player_take_damage
+    clip: {fileID: 8300000, guid: 08eed59219cce26418bfe083004d607a, type: 3}
+    volume: 1
+    minPitch: 0.8
+    maxPitch: 1.1
+  - key: player_dash
+    clip: {fileID: 8300000, guid: cace439582221ba4dab1916148112086, type: 3}
+    volume: 0.5
+    minPitch: 0.8
+    maxPitch: 1.1
+  - key: player_step
+    clip: {fileID: 8300000, guid: 93e18e51d0c57444ca1184cd064aba3a, type: 3}
+    volume: 0.4
+    minPitch: 0.8
+    maxPitch: 1.1
+  - key: boss_take_hit
+    clip: {fileID: 8300000, guid: afe7c95fc04037246bc0144617e506d4, type: 3}
+    volume: 0.7
+    minPitch: 0.8
+    maxPitch: 1.1
+  - key: boss_death
+    clip: {fileID: 8300000, guid: 97a2ec9d15f060245bff7e06d755bf69, type: 3}
+    volume: 1
+    minPitch: 0.8
+    maxPitch: 1.1
+  - key: boss_phase2
+    clip: {fileID: 8300000, guid: 0c21f1ad962986844ae352e464f45571, type: 3}
+    volume: 1
+    minPitch: 0.8
+    maxPitch: 1.1
+  - key: rocket_explosion
+    clip: {fileID: 8300000, guid: 774c00fc64dbd1f44abc6cfaa7013dc9, type: 3}
+    volume: 1
+    minPitch: 0.8
+    maxPitch: 1.1
